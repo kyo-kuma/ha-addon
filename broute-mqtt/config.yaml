@@ -2,11 +2,11 @@ name: "BRoute-Mqtt"
 description: "[For Japan] Integrate low-voltage smart energy meters into Home Assistant's MQTT as devices/sensors via the Wi-SUN dongle and ECHONET Lite protocol."
 version: "1.0.4"
 slug: "broute_mqtt"
-url: "https://github.com/kyokuma/broute-mqtt"
+url: "https://github.com/kyo-kuma/broute-mqtt"
 startup: application
 boot: manual
 init: false
-image: ghcr.io/kyokuma/broutemqtt-{arch}
+image: ghcr.io/kyo-kuma/broutemqtt-{arch}
 arch:
   - aarch64
   - amd64
