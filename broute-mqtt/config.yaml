@@ -6,7 +6,7 @@ url: "https://github.com/kyo-kuma/broute-mqtt"
 startup: application
 boot: manual
 init: false
-image: ghcr.io/kyo-kuma/broutemqtt-{arch}
+image: ghcr.io/hsakoh/broutemqtt-{arch}
 arch:
   - aarch64
   - amd64
